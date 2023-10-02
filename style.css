@@ -1,0 +1,166 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('font/Poppins/Poppins-Bold.ttf');
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: block;
+    background-color: #9ECEB4;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3em;
+    padding-right: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    font-size: 2em;
+}
+
+a:hover,
+a:active {
+    color: #2E8169;
+}
+
+
+.splash /* header/foto homepagina */{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fotos/Banner.jpg);
+    /* max-width: 100%; */
+    background-position: center;
+    background-size: cover;
+    height: 50em;
+    font-family: 'Poppins-bold';
+    color: white;
+    padding: 3em;
+
+}
+
+.splash p {
+    font-size: 3em;
+}
+
+
+h1 {
+    font-size: 5em;
+}
+
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+    font-size: 2em;
+
+}
+
+.alinea
+/* homepagina*/
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.footer {
+    max-height: 100px;
+    min-height: 100px;
+    display: block;
+    background-color: #2E8169;
+    position: sticky;
+    padding: 2em;
+
+}
+
+.imgdiensten {
+    background-image: url(fotos/3F56C1CE-A3B0-4E4E-9358-F1B754B59154.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+.titeldiensten {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Poppins-bold';
+    font-size: 8em;
+    flex-wrap: wrap;
+}
+
+
+
+.h1overons {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.scrollen {
+    font-size: 4em;
+}
+
+.hor-content {
+    display: flex;
+    gap: 2em;
+    margin: -0em 0;
+
+}
+
+.opmaak
+/*diensten alinea opmaak*/
+    {
+    background-color: #2E8169;
+    width: 50%;
+    padding: 2em;
+    padding-top: 4em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.opmaak2
+/*diensten zin opmaak*/
+    {
+    font-size: 5em;
+    padding: 1em;
+    font-family: 'Poppins-bold';
+    text-align: center;
+}
