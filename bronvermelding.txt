@@ -4,7 +4,7 @@ Klas:Turquiose
 Schooljaar: 2023-2024 leerjaar 1
 
 LINK NAAR LIVE WEBSITE
-
+https://lotterit.github.io/remarkable/
 
 BRONVERMELDING
 1. 	https://cdn-icons-png.flaticon.com/512/25/25325.png
